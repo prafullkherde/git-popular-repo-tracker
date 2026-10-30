@@ -76,7 +76,7 @@ the workflow's declared permission.
 
 To publish the dashboard, open **Settings → Pages** and choose **Deploy from a branch**,
 branch `main`, folder `/docs`. The dashboard URL is
-`https://prafullkherde.github.io/git-populer-repo-tracker/repo-trend-tracker/`.
+`https://prafullkherde.github.io/git-popular-repo-tracker/repo-trend-tracker/`.
 Set the repository Actions variable `DASHBOARD_URL` only if you use a different URL.
 The workflow includes the link in each run summary.
 
