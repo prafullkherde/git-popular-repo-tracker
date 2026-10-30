@@ -10,7 +10,7 @@ This standalone repository keeps the tracker, workflow, and published dashboard
 separate:
 
 ```
-git-populer-repo-tracker/
+git-popular-repo-tracker/
 ├── .github/workflows/repo-trend-tracker.yml
 ├── docs/repo-trend-tracker/         ← GitHub Pages copy
 └── repo-trend-tracker/
@@ -69,7 +69,7 @@ alongside the existing signals — same evidence-string pattern.
    The dashboard source is `repo-trend-tracker/dashboard/`; the workflow copies its
    HTML, generated `data.json`, and run-health history into `docs/repo-trend-tracker/`.
    The default dashboard URL is
-   `https://prafullkherde.github.io/git-populer-repo-tracker/repo-trend-tracker/`.
+   `https://prafullkherde.github.io/git-popular-repo-tracker/repo-trend-tracker/`.
    Set the Actions variable `DASHBOARD_URL` only to override it.
 4. Edit `data/watchlist_seed.json`:
    - `always_track`: exact repos to keep tracking regardless of trending/search that week.

@@ -777,7 +777,7 @@ def main():
 
     dashboard_url = os.environ.get(
         "DASHBOARD_URL"
-    ) or "https://prafullkherde.github.io/git-populer-repo-tracker/repo-trend-tracker/"
+    ) or "https://prafullkherde.github.io/git-popular-repo-tracker/repo-trend-tracker/"
 
     # Send whenever there's something new OR there's a heartbeat OR something went wrong —
     # RUN_ERRORS alone is reason enough to mail, even if nothing else changed this run.
