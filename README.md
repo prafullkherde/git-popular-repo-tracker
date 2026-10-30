@@ -134,3 +134,54 @@ ecc-how-to-use.md
 
 The tracker uses `data/snapshots.csv` as its history source; the workflow commits
 changes so the dashboard has a persistent trend history. No database is required.
+
+---
+
+## 🎯 ECC-Enhanced Workflow
+
+This repository now includes **ECC (Everything Claude Code) integration** for enhanced GitHub Copilot Chat workflows.
+
+### What's New?
+
+The basic `/plan`, `/tdd`, `/diff-review`, and `/verify` commands have been enhanced with:
+
+✅ **Structured workflows** - Clear chain from planning → testing → review → validation  
+✅ **ECC pattern grounding** - References to skills, hooks, and rules from the full ECC framework  
+✅ **Approval gates** - Explicit confirmation gates before each step  
+✅ **Acceptance criteria** - Measurable, checklist-based validation  
+
+### Quick Start
+
+Try the ECC workflow:
+
+```bash
+# 1. Plan a feature
+/plan Add multi-language dashboard support
+
+# 2. Implement with TDD (after approval)
+/tdd
+
+# 3. Review changes
+/diff-review
+
+# 4. Final validation
+/verify
+
+# 5. Create PR
+/pr Add multi-language dashboard support
+```
+
+### Learn More
+
+See **[ECC-INTEGRATION-GUIDE.md](ECC-INTEGRATION-GUIDE.md)** for:
+- Detailed comparison: Normal `/plan` vs. ECC `/plan`
+- Workflow chain and approval gates
+- Pattern grounding and acceptance criteria
+- Troubleshooting and references
+
+### Reference
+
+- **ECC Repository**: https://github.com/affaan-m/ecc
+- **Integration Guide**: `ECC-INTEGRATION-GUIDE.md`
+- **Original How-To**: `ecc-how-to-use.md`
+
